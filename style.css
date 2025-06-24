@@ -1,0 +1,76 @@
+
+body{
+    background-color: #ffe6f0;
+    font-family: Arial, sans-serif;
+}
+h1{color: #d63384; text-align:center;}
+
+p{
+            text-align: justify;/*justifica o texto*/
+            font-size: 18px;/*aumenta o tamanho da letra*/
+            margin: 30px;
+        }
+
+
+        button{
+            background-color: #8e5873;/*cor do botão*/
+            color: white;/*cor do texto do botão*/
+            border: none;/*remove a borda do botão*/
+            padding: 10px 20px;/*espaçamento interno do botão*/
+            border-radius: 5px;/*bordas arredondadas no botão*/
+            cursor: pointer;/*cursor de mão ao passar o mouse*/
+            margin-left: 40px;
+        }
+        
+        h2{
+            color: #d63384;/*cor do título*/
+            text-align: center;/*alinha o título ao centro*/
+            margin-top: 20px;
+        }
+ul{
+    margin: 20px;
+    padding-left: 40px;
+}
+ul li{
+                margin-bottom: 15px;/*espaçamento entre os itens da lista*/
+            }
+            img{
+                display: block;
+                margin: 20px auto;
+                border-radius: 10px;/*bordas arredondadas na imagem*/
+                width: 700px;/*tamanho <adequado></adequado>
+            }
+
+    
+            subtitle{
+                color: #d63384;/*cor do subtítulo*/
+                text-align: center;/*alinha o subtítulo ao centro*/
+                margin-top: 20px;
+            }
+            h3{
+                color: #d63384;/*cor do subtítulo*/
+                text-align: center;/*alinha o subtítulo ao centro*/
+                margin-top: 30px;
+            }
+        
+
+            table{
+                margin:20px auto;
+                border-collapse:collapse;
+                width:60%;
+            }
+        table, td{
+                border: 1px solid #333;
+                padding: 10px;
+                text-align:center;
+            }
+            a{
+            display: block;
+            text-align: center;
+            margin: 20px;
+            color:blue;
+            text-decoration: none;
+            }
+            a:hover{
+                color: red;/*muda de cor ao passar o mouse*/
+            }
